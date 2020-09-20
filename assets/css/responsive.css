@@ -37,6 +37,9 @@
         font-size: 16px;
         font-weight: 600;
     }
+    .new__letter{
+        width:100%
+    }
     .banner__right {
         top: 220px;
         width: 58%;
@@ -136,7 +139,7 @@
     }
     /* bannner-end */
     .card__right{
-        width:98%;
+        width:100%;
         position: static;
         margin: 0;
     }
@@ -152,14 +155,11 @@
     .card__title {
         padding: 65px 25px;
         margin-top: 15px;
-        width: calc(100% + 87%);
+        width: calc(100% + 100%);
         margin-bottom: 20px;
     }
     .left__reverse {
         width: 50%;
-    }
-    .card__inner img{
-        width:96%
     }
     /* card-end */
     .btn--black {
@@ -221,12 +221,12 @@
         font-size: 18px;
     }
     .btn--black {
-        font-size: 8px;
-        padding: 10px 13px;
+        font-size: 7px;
+        padding: 8px 5px;
         margin-top: 5px;
     }
     .btn--black {
-        width: 55%;
+        width: 60%;
     }
     .card__title h2 {
         font-size: 28px;
@@ -236,7 +236,13 @@
     }
     .card__head p {
         margin: 0 0pc;
-    }    
+    }   
+    .card__title{
+        width: calc(100% + 100%);
+    } 
+    .card__title p {
+        font-size: 12px;
+    }
     .icon {
         margin-left: 31px;
     }
