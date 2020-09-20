@@ -36,7 +36,6 @@
         text-align: initial;
         font-size: 16px;
         font-weight: 600;
-        padding: 8px;
     }
     .banner__right {
         top: 220px;
@@ -152,24 +151,31 @@
     }
     .card__title {
         padding: 65px 25px;
-        margin-top: 2px;
-        width: calc(100% + 96%);
+        margin-top: 15px;
+        width: calc(100% + 87%);
         margin-bottom: 20px;
     }
     .left__reverse {
         width: 50%;
     }
+    .card__inner img{
+        width:96%
+    }
     /* card-end */
     .btn--black {
         font-size: 12px;
-        width: 100%;
-        margin-top: 15px;
+        width: 53%;
+        margin-top: 0px;
     }
     .newsletter__footer{
         display: block;
     }
-    .new_btn{
+    .new_btn {
         font-size: 20px;
+        background-color: black;
+        color: white;
+        width: 100%;
+        margin-top: 15px;
     }
     .newsletter {
         padding: 25px 25px 50px;
@@ -197,6 +203,12 @@
         font-weight: 400;
         font-size: 12px;
     }
+    .btn--black {
+        width: 66%;
+    }
+    .btn {
+        padding: 18px 21px;
+    }
     
 }
 @media screen and (max-width:480px) {
@@ -209,13 +221,22 @@
         font-size: 18px;
     }
     .btn--black {
-        font-size: 7px;
-        padding: 7px 13px;
+        font-size: 8px;
+        padding: 10px 13px;
         margin-top: 5px;
+    }
+    .btn--black {
+        width: 55%;
+    }
+    .card__title h2 {
+        font-size: 28px;
     }
     .banner__inner p {
         font-size: 14px;
     }
+    .card__head p {
+        margin: 0 0pc;
+    }    
     .icon {
         margin-left: 31px;
     }
