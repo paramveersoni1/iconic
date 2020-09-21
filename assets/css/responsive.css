@@ -89,6 +89,15 @@
     .collection__available{
         width:100%;
     }
+    .btn_coll {
+        padding: 14px 20px;
+        width: 100%;
+    }
+    .collection__btn {
+        bottom: 55px;
+        left: 14px;
+        width: 90%;
+    }
 }
 @media screen  and (max-width:991px){
     .banner__right {
@@ -142,6 +151,10 @@
         width: 50%;
         padding-right: 14px;
         margin-top: 15px;
+    }
+    .collection__btn {
+        left: 21px;
+        width: 80%;
     }
 }
 @media screen  and (max-width:767px){
@@ -215,13 +228,18 @@
         font-size: 14px;
         font-weight: 300;
     }
+    .collection__btn {
+        position: absolute;
+        bottom: 55px;
+        left: 15px;
+        width: 80%;
+    }
     .btn_coll{
         padding: 18px 10px;
     }
     .collection__available {
         width: 100%;
-    }
-    
+    } 
 }
 @media screen and (max-width:567px){
   
@@ -263,11 +281,12 @@
     .collection_details p {
         font-size: 18px;
     }
-    .btn_coll{
+    .btn_coll {
         padding: 18px 90px;
+        width: 105%;
     }
     .collection__btn {
-        left: 40px;
+        left: 50px;
     }
 }
 @media screen and (max-width:480px) {
@@ -319,8 +338,9 @@
     .collection_details p {
         font-size: 16px;
     }
-    .collection__btn{
+    .collection__btn {
         bottom: 54px;
-        left: 65px;
+        left: 14px;
+        width: 85%;
     }
 }
