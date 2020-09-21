@@ -54,6 +54,9 @@ ul {
   width: 100%;
   position: absolute;
 }
+.header__parant{
+  position: relative;
+}
 
 .logo {
   font-weight: 700;
@@ -138,10 +141,7 @@ ul {
 .d--flex {
   display: flex;
 }
-
-.banner__parant {
-  position: relative;
-}
+/* banner-start */
 
 .banner__right {
   position: absolute;
@@ -164,7 +164,7 @@ ul {
   font-size: 40px;
   color: #000;
 }
-
+/* banner-end */
 .card__head {
   text-align: center;
 }
@@ -226,7 +226,7 @@ ul {
 .left__reverse {
   width: 60%;
 }
-
+/* card- end */
 .banefit__inner {
   width: 33.33%;
   text-align: center;
@@ -282,7 +282,7 @@ ul {
   font-size: 15px;
   margin-bottom: 15px;
 }
-
+/* footer-start */
 .footer_nav {
   flex-direction: column;
 }
@@ -324,4 +324,62 @@ ul {
 
 .nav-item {
   text-transform: uppercase;
+}
+/* collection-start */
+.collection_parant{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.collection__inner {
+  position: relative;
+  width: 25%;
+  padding-right: 14px;
+}
+.collection_title {
+  margin-bottom: 20px;
+}
+.collection_title h1{
+    font-size: 28px;
+    font-weight: 800;
+}
+.collection_details{
+    position: absolute;
+    top: 8px;
+    left: 17px;
+    width: 35%;
+    color: white;
+}
+.collection_details h2{
+  font-size: 34px;
+  margin: 0;
+}
+.collection_details p{
+  font-size: 18px;
+  font-weight: 300;
+}
+.collection__btn {
+  position: absolute;
+  bottom: 64px;
+  left: 30px;
+}
+.collection__footer{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn_coll {
+  font-size: 14px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+}
+.collection_space{
+  margin-top: 40px;
+}
+.collection__available {
+  border: 1px solid #707070;
+  width: 300px;
+  height: 399px;
+  background-color: #FFFFFF;
+  border-radius: 0 40px 0 40px;
 }
