@@ -40,8 +40,11 @@
     .new__letter{
         width:100%
     }
+    .navbar a {
+        padding: 10px;
+    }
     .banner__right {
-        top: 220px;
+        top: 122%;
         width: 58%;
     }
     .banner__inner h2 {
@@ -80,10 +83,16 @@
         padding-right: 14px;
         margin-top: 15px;
     }
+    .collection__img img{
+        width:100%;
+    }
+    .collection__available{
+        width:100%;
+    }
 }
 @media screen  and (max-width:991px){
     .banner__right {
-        top: 160px;
+        top: 100%;
         width: 55%;
     }
     .banner__inner h2 {
@@ -94,7 +103,7 @@
         font-size: 28px;
     }
     .navbar a {
-        padding: 0 12px;
+        padding: 10px;
     }
     .btn--black {
         font-size: 18px;
@@ -137,16 +146,18 @@
 }
 @media screen  and (max-width:767px){
     .banner__inner h2 {
-        font-size: 24px;
+        font-size: 28px;
     }  
     .banner__inner p {
         font-size: 20px;
     }
     .btn--black {
         font-size: 12px;
+        width: 60%;
+        padding: 18px 12px;
     }
     .banner__right {
-        top: 140px;
+        top: 90%;
         width: 55%;
     }
     /* bannner-end */
@@ -174,11 +185,6 @@
         width: 50%;
     }
     /* card-end */
-    .btn--black {
-        font-size: 12px;
-        width: 53%;
-        margin-top: 0px;
-    }
     .newsletter__footer{
         display: block;
     }
@@ -213,27 +219,34 @@
         padding: 18px 10px;
     }
     .collection__available {
-        width: 250px;
+        width: 100%;
     }
     
 }
 @media screen and (max-width:567px){
-    .banner__right {
-        top: 100px;
-        width: 55%;
-    }
+  
     .banefit__inner img {
         margin-bottom: 6px;
+    }
+    .btn {
+        padding: 14px 0px;
+    }
+    .banner__inner p {
+        font-size: 18px;
     }
     .banefit__inner h4 {
         font-weight: 400;
         font-size: 12px;
     }
+    .banner__right {
+        top: 75%;
+        width: 55%;
+    }
+    .banner__inner h2 {
+        font-size: 24px;
+    }
     .btn--black {
         width: 66%;
-    }
-    .btn {
-        padding: 18px 21px;
     }
     .collection__inner {
         width: 100%;
@@ -259,13 +272,14 @@
 }
 @media screen and (max-width:480px) {
     .banner__right {
-        top: 85px;
+        top: 63%;
         width: 55%;
         line-height: 14px;
     }
     .banner__inner h2 {
-        font-size: 18px;
+        font-size: 17px;
     }
+
     .btn--black {
         font-size: 7px;
         padding: 8px 5px;
