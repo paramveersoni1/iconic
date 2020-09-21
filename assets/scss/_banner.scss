@@ -1,0 +1,56 @@
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 50px;
+    border: 0;
+    border-radius: 0 34px 34px 34px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .btn--black {
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .d--flex {
+    display: flex;
+  }
+  
+  .banner__parant {
+    position: relative;
+  }
+  
+  .banner__right {
+    position: absolute;
+    top: 264px;
+    width: 57%;
+    right: 0;
+  }
+  
+  .banner__img {
+    width: 100%;
+  }
+  
+  .banner__inner h2 {
+    font-size: 60px;
+    font-weight: 800;
+    color: #000;
+  }
+  
+  .banner__inner p {
+    font-size: 40px;
+    color: #000;
+  }

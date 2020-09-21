@@ -1,0 +1,61 @@
+.card__head {
+    text-align: center;
+  }
+  
+  .card__head h2 {
+    font-size: 36px;
+  }
+  
+  .card__head p {
+    margin: 0 24px;
+  }
+  
+  .card {
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin-top: 115px;
+  }
+  
+  .card__left {
+    width: 50%;
+    z-index: 5;
+  }
+  
+  .card__title {
+    box-shadow: 7px 7px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 0 40px 0 40px;
+    background-color: #fff;
+    padding: 100px 23px;
+    width: calc(100% + 90px);
+  }
+  
+  .card__right {
+    width: 50%;
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+  }
+  
+  .card__title p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .card__title h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  
+  .card.card--reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .card__reverse {
+    left: 0;
+  }
+  
+  .left__reverse {
+    width: 60%;
+  }

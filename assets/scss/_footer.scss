@@ -1,0 +1,42 @@
+.footer_nav {
+    flex-direction: column;
+  }
+  
+  .footer {
+    background-color: #000;
+    padding-top: 150px;
+    padding-bottom: 60px;
+  }
+  
+  .footer__title {
+    width: 33.33%;
+  }
+  
+  .footer_nav h2 {
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .nav-link {
+    color: white;
+    display: inline-block;
+    padding: 6px 0;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .app_link img {
+    margin-right: 15px;
+  }
+  
+  .card__title_reverse {
+    width: calc(100% + 0px);
+  }
+  
+  .footer__parant {
+    display: flex;
+  }
+  
+  .nav-item {
+    text-transform: uppercase;
+  }

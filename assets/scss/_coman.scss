@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: segoe UI;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .section {
+    padding: 60px 0;
+  }
+  
+  .section-sm {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .upper-bar {
+    background-color: gray;
+    text-align: center;
+    padding: 10px 0px 9px;
+  }
+  
+  .uper-title {
+    color: white;
+  }
+  
+  .center-title {
+    text-align: center;
+    padding: 30px;
+    font-size: 35px;
+  }
+  
+  :focus {
+    outline: none;
+  }
