@@ -98,6 +98,25 @@
         left: 14px;
         width: 90%;
     }
+    /* page-3 */
+    .review__details img {
+        height: 27.8%;
+    }
+    .love_title {
+        font-size: 24px;
+        font-weight: 900;
+        color: black;
+        margin-top: -70px;
+    }
+    .love_btn{
+        bottom: 10px;
+        left: 14px;
+        width: 90%;
+    }
+    .warkout {
+        margin-top: 24px;
+        width: 95%;
+    }
 }
 @media screen  and (max-width:991px){
     .banner__right {
@@ -155,6 +174,13 @@
     .collection__btn {
         left: 21px;
         width: 80%;
+    }
+    /* page-3 */
+    .review__details img {
+        height: 27.4%;
+    }
+    .size__guides_child {
+        width: 50%;
     }
 }
 @media screen  and (max-width:767px){
@@ -240,6 +266,26 @@
     .collection__available {
         width: 100%;
     } 
+    /* page-3 */
+    .review__parant{
+        display: block;
+    }
+    .review__left {
+        width: 100%;
+    }
+    .review__details img {
+        height: 28.4%;
+    }
+    .warkout{
+        margin:0;
+    }
+    .review_info{
+        width:100%;
+        margin-top: 15px;
+    }
+    .love_btn{
+        bottom: 10px;
+    }
 }
 @media screen and (max-width:567px){
   
@@ -287,6 +333,25 @@
     }
     .collection__btn {
         left: 50px;
+    }
+    /* page-3 */
+    .left_inner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .review__details {
+        width: 100%;
+        order: 2;
+        display: flex;
+        margin-top: 10px;
+    }
+    .review_main_img {
+        width: 100%;
+        margin-left: 8px;
+        order: 1;
+    }
+    .warkout{
+        order: 3;
     }
 }
 @media screen and (max-width:480px) {
@@ -342,5 +407,12 @@
         bottom: 54px;
         left: 14px;
         width: 85%;
+    }
+    /* page-3 */
+    .love_btn {
+        bottom: 10px;
+    }
+    .review_title h2, h3 {
+        font-size: 26px;
     }
 }
