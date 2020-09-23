@@ -44,8 +44,8 @@
         padding: 10px;
     }
     .banner__right {
-        top: 122%;
         width: 58%;
+        bottom: 180px;
     }
     .banner__inner h2 {
         font-size: 42px;
@@ -82,6 +82,9 @@
         width: 33%;
         padding-right: 14px;
         margin-top: 15px;
+    }
+    .banner__parent {
+        position: relative;
     }
     .collection__img img{
         width:100%;
@@ -120,8 +123,8 @@
 }
 @media screen  and (max-width:991px){
     .banner__right {
-        top: 100%;
         width: 55%;
+        top: 166px;
     }
     .banner__inner h2 {
         font-size: 38px;
@@ -182,6 +185,19 @@
     .size__guides_child {
         width: 50%;
     }
+    .survey_right {
+        width: 40%;
+        border-right: 1px solid #707070;
+        padding: 0 30px;
+    }
+    .left_survey {
+        width: 58%;
+        padding: 0 20px;
+    }
+    input.member_input {
+        width: 100%;
+        margin-top: 12px;
+    }
 }
 @media screen  and (max-width:767px){
     .banner__inner h2 {
@@ -196,7 +212,7 @@
         padding: 18px 12px;
     }
     .banner__right {
-        top: 90%;
+        top: 118px;
         width: 55%;
     }
     /* bannner-end */
@@ -286,6 +302,26 @@
     .love_btn{
         bottom: 10px;
     }
+    .survey_father {
+         display: block;
+        width: 100vw;
+        margin-top: 50px;
+    }
+    .survey_right {
+        width: 100%;
+        border-right: none;
+        padding: 0 30px;
+    }
+    .rating__detealis {
+        display: flex;
+        margin-top: 7px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .left_survey {
+        width: 100%;
+        padding: 0 20px;
+    }
 }
 @media screen and (max-width:567px){
   
@@ -303,7 +339,7 @@
         font-size: 12px;
     }
     .banner__right {
-        top: 75%;
+        top: 83px;
         width: 55%;
     }
     .banner__inner h2 {
@@ -353,10 +389,14 @@
     .warkout{
         order: 3;
     }
+    .review__details img {
+        height: 87.4%;
+        width: 255px;
+    }
 }
 @media screen and (max-width:480px) {
     .banner__right {
-        top: 63%;
+        top: 30%;
         width: 55%;
         line-height: 14px;
     }
@@ -415,4 +455,25 @@
     .review_title h2, h3 {
         font-size: 26px;
     }
+    .section-body h2 {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        padding-top: 7px;
+        border-top: 1px solid #707070;
+    }
+    .right-content {
+        line-height: normal;
+    }
+    .left-content {
+        width: 79%;
+        padding-bottom: 14px;
+    }
+    .review__details img {
+        height: 84%;
+        width: 255px;
+    }
+    .review__details{
+        overflow: hidden;
+    }
+
 }

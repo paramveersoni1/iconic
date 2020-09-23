@@ -117,10 +117,28 @@ ul {
   font-size: 24px;
   cursor: pointer;
   text-align: center;
+  position: relative;
   font-weight: 600;
   text-transform: uppercase;
+  overflow: hidden;
 }
-
+.btn::before {
+  content: "";
+  width: 90%;
+  height: 25%;
+  position: absolute;
+  background-color: white;
+  top: 34px;
+  left: 0;
+  transform: translateX(-100%) rotate(45deg);
+  transition: all 1.2s;
+}
+.btn:hover::before{
+  transform: translateX(100%) rotate(45deg);
+}
+.banner__parent{
+  position: relative;
+}
 .btn--black {
   background: #000;
   border: 1px solid #000;
@@ -460,6 +478,7 @@ ul {
   height:54px;
   border-radius: 0px 0px 40px 0px;
   color: rgba(68,68,68,0.75);
+  appearance: none;
 }
 .form__control:hover{
   border:1px solid #C5C5C5
@@ -526,6 +545,11 @@ ul {
 .top__inner {
   display: flex;
 }
+.overall__title h2{
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 14px;
+}
 .bottom__inner h4 {
   margin-top: 12px;
 }
@@ -535,4 +559,44 @@ ul {
     opacity: 0.5;
     display: inline-block;
     margin: 0 0 1em 0;
+}
+.survey_father {
+  display: flex;
+  width: 100vw;
+  margin-top: 50px;
+}
+.survey_right {
+  width: 45%;
+  border-right: 1px solid #707070;
+  padding: 0 45px;
+}
+input.member_input {
+  width: 100%;
+  margin-top: 20px;
+}
+.member_fit{
+  margin-top: 30px;
+}
+.rating__detealis{
+  display: flex;
+  margin-top: 7px;
+}
+.left_survey {
+  width: 50%;
+  padding: 0 45px;
+}
+.section-left-box {
+  border-bottom: 1px solid #707070;
+  display: flex;
+}
+.left-content{
+  width:45%;
+  padding-bottom: 14px;
+}
+.left-content h3 {
+  font-size: 20px;
+  text-transform: lowercase;
+}
+.right-content {
+  line-height: 2.3;
 }
