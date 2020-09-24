@@ -734,12 +734,29 @@ input.member_input {
     text-align: center;
     width: 38%;
     display: block;
-    margin-bottom: 32px;
-    margin: 8px auto;
+    margin: 14px auto;
 }
 .geeting_inner{
   text-align: center;
 }
 .geeting_btn{
   width:38%;
+}
+.getting_title{
+  border: none;
+}
+.getting_title p{
+  font-size: 18px;
+}
+.inner_input {
+  padding: 20px 15px;
+  width: 38%;
+  background-color: #ffffff;
+  border: 1px solid #000;
+  border-radius: 0px 0px 40px 0px;
+  color: rgba(68,68,68,0.75);
+  height: 58px;
+  font-style: italic;
+  display: block;
+  margin: 14px auto;
 }
