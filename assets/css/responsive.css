@@ -221,6 +221,15 @@
         width: 100%;
         text-transform: uppercase;
     }
+    /* page-5 */
+    .about_info {
+        width: calc(100% - 41%);
+        padding: 15px;
+    }
+    .about_img {
+        margin-right: 10px;
+        width: 44%;
+    }
 }
 @media screen  and (max-width:767px){
     .banner__inner h2 {
@@ -317,6 +326,7 @@
     }
     .warkout{
         margin:0;
+        display: none;
     }
     .review_info{
         width:100%;
@@ -349,6 +359,41 @@
     .section__guides{
         padding: 30px;
     }
+    /* page-5 */
+    .about_inner {
+        display: block;
+    }
+    .about_img{
+        width: 100%;
+        margin-right: 0;
+    }
+    .about_info {
+        width: calc(100% - 0%);
+        margin-top: 18px;
+    }
+    .produces_inner{
+        display: block;
+    }
+    .produces__items {
+        width: 100%;
+        padding-right: 0px;
+        padding-bottom: 17px;
+    }
+    .ourselves__inner{
+        display: block;
+    }
+    .ourselves__left {
+        width: 103%;
+    }
+    .ourselves__right {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .ourselves {
+        margin-top: 0;
+        padding: 30px;
+    }
+    
 }
 @media screen and (max-width:567px){
   
