@@ -221,13 +221,23 @@
         width: 100%;
         text-transform: uppercase;
     }
-    /* page-5 */
+    /* page-6 */
     .about_info {
         width: calc(100% - 41%);
         padding: 15px;
     }
     .about_img {
         margin-right: 10px;
+        width: 44%;
+    }
+    /* page-7 */
+    .geeting_list {
+        text-align: center;
+        width: 44%;
+        margin-bottom: 32px;
+        margin: 11px auto;
+    }
+    .geeting_btn {
         width: 44%;
     }
 }
@@ -393,6 +403,16 @@
         margin-top: 0;
         padding: 30px;
     }
+    /* page-7 */
+    .geeting_list {
+        text-align: center;
+        width: 56%;
+        margin-bottom: 15px;
+    }
+    .geeting_btn {
+        width: 56%;
+        font-size: 18px;
+    }
     
 }
 @media screen and (max-width:567px){
@@ -553,6 +573,16 @@
     }
     .section__guides {
         padding: 8px;
+    }
+    /* page-7 */
+    .geeting_list {
+        text-align: center;
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    .geeting_btn {
+        width: 90%;
+        font-size: 18px;
     }
 
 }
